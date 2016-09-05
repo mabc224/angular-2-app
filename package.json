@@ -1,7 +1,9 @@
 {
   "name": "angular-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
+  "repository": "https://github.com/mabc224/angular-app.git",
+  "author": " Arsalan Bilal <mabc224@gmail.com>",
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
