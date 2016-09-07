@@ -1,3 +1,11 @@
 <h1>
   {{title}}
 </h1>
+
+<app-componen-tlife-cycle ngif="!delete" [bindable]="boundable">
+  <p>This is paragraph inside com life cycle tese: {{test}}</p>
+
+</app-componen-tlife-cycle>
+<button (click)="delete = true">Click to Delete</button>
+<button (click)="test = 'changed value'">Click to Change content</button>
+<button (click)="boundable = 2000">Click to Change bindable value</button>
