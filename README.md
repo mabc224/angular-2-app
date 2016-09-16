@@ -31,6 +31,7 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Step4
-  Component life cycle
-    OnInit, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy
+  Component & Data Binding
+    Setting up header, footer, main
+    Products, Products List
     

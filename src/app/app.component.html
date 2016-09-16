@@ -1,11 +1,27 @@
-<h1>
-  {{title}}
-</h1>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Angular2 Site</title>
+  <base href="/">
 
-<app-componen-tlife-cycle ngif="!delete" [bindable]="boundable">
-  <p>This is paragraph inside com life cycle tese: {{test}}</p>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
-</app-componen-tlife-cycle>
-<button (click)="delete = true">Click to Delete</button>
-<button (click)="test = 'changed value'">Click to Change content</button>
-<button (click)="boundable = 2000">Click to Change bindable value</button>
+  <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
+</head>
+<body>
+<app-header></app-header>
+
+
+<div class="container">
+
+
+<app-products></app-products>
+
+
+
+</div>
+<app-footer></app-footer>
+</body>
+</html>

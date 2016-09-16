@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-products-list (productSelected)="selectedProduct = $event" ></app-products-list>
+  </div>
+  <div class="col-md-7">
+    <app-product-detail [selectedProduct]="selectedProduct"></app-product-detail>
+  </div>
+</div>
